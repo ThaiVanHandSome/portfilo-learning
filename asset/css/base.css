@@ -1,0 +1,37 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #777;
+    --primary-color: #009688;
+}
+
+*{
+    box-sizing: inherit;
+    font-family: 'Raleway', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+@keyframes categoryMoveFromLeft{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./asset/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./asset/css/grid.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="app">
+        <input type="checkbox" hidden id="btn-checkbox" class="app__checkbox">
+        <div class="category">
+            <label for="btn-checkbox" class="category__close hide-on-pc">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <div class="category__infor">
+                <img src="./asset/img/avatar_g2.jpg" alt="" class="category__avatar">
+                <h2 class="category__name">PORTFOLIO</h2>
+                <div class="category__desc">Template by W3.CSS</div>
+            </div>
+            <ul class="category__list">
+                <li class="category__item category__item--active">
+                    <a href="" class="category__item-link">
+                        <i class="fa-sharp category__item-icon fa-solid fa-layer-group"></i>
+                        PORTFOLIO
+                    </a>
+                </li>
+                <li class="category__item">
+                    <a href="" class="category__item-link">
+                        <i class="fa-sharp category__item-icon fa-solid fa-user-large"></i>
+                        ABOUT
+                    </a>
+                </li>
+                <li class="category__item">
+                    <a href="" class="category__item-link">
+                        <i class="fa-sharp category__item-icon fa-solid fa-envelope"></i>
+                        CONTACT
+                    </a>
+                </li>
+            </ul>
+            <ul class="category__list-icon">
+                <li class="category__list-icon-item">
+                    <i class="fa-brands fa-facebook"></i>
+                </li>
+                <li class="category__list-icon-item">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </li>
+                <li class="category__list-icon-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                </li>
+                <li class="category__list-icon-item">
+                    <i class="fa-brands fa-youtube"></i>
+                </li>
+                <li class="category__list-icon-item">
+                    <i class="fa-brands fa-tiktok"></i>
+                </li>
+                <li class="category__list-icon-item">
+                    <i class="fa-brands fa-twitter"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <label for="btn-checkbox" class="overlay"></label>
+            <div class="mobile-tablet-nav">
+                <label for="btn-checkbox" class="mobile-tablet-nav__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <a href="#" class="mobile-tablet-nav__link">
+                    <img src="./asset/img/avatar_g2.jpg" alt="" class="mobile-tablet-nav__avatar">
+                </a>
+            </div>
+            <div class="header">
+                <h1 class="header__name">My Portfolio</h1>
+                <div class="header__filter">
+                    <p class="header__filter-text">
+                        Filter:
+                    </p>
+                    <ul class="header__filter-list">
+                        <li class="header__filter-item header__filter-item--active">
+                            ALL
+                        </li>
+                        <li class="header__filter-item">
+                            <i class="header__filter-icon fa-regular fa-gem"></i>
+                            Design
+                        </li>
+                        <li class="header__filter-item hide-on-mobile">
+                            <i class="header__filter-icon fa-regular fa-image"></i>
+                            Photos
+                        </li>
+                        <li class="header__filter-item hide-on-mobile">
+                            <i class="header__filter-icon fa-solid fa-map-pin"></i>
+                            Art
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="app_container">
+                <div class="grid">
+                    <div class="row sm-gutters products">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="products__item">
+                                <img src="./asset/img/img_1.jpg" alt="" class="products__item-img">
+                                <div class="products-item__content">
+                                    <h2 class="products__item-name">Lorem Ipsum</h2>
+                                    <p class="product__item-text">
+                                        Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
+                                        lectus
+                                        vitae, ultricies congue gravida diam non fringilla.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="products__item">
+                                <img src="./asset/img/img_2.jpg" alt="" class="products__item-img">
+                                <div class="products-item__content">
+                                    <h2 class="products__item-name">Lorem Ipsum</h2>
+                                    <p class="product__item-text">
+                                        Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
+                                        lectus
+                                        vitae, ultricies congue gravida diam non fringilla.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="products__item">
+                                <img src="./asset/img/img_3.jpg" alt="" class="products__item-img">
+                                <div class="products-item__content">
+                                    <h2 class="products__item-name">Lorem Ipsum</h2>
+                                    <p class="product__item-text">
+                                        Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
+                                        lectus
+                                        vitae, ultricies congue gravida diam non fringilla.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="products__item">
+                                <img src="./asset/img/img_4.jpg" alt="" class="products__item-img">
+                                <div class="products-item__content">
+                                    <h2 class="products__item-name">Lorem Ipsum</h2>
+                                    <p class="product__item-text">
+                                        Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
+                                        lectus
+                                        vitae, ultricies congue gravida diam non fringilla.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="products__item">
+                                <img src="./asset/img/img_5.jpg" alt="" class="products__item-img">
+                                <div class="products-item__content">
+                                    <h2 class="products__item-name">Lorem Ipsum</h2>
+                                    <p class="product__item-text">
+                                        Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
+                                        lectus
+                                        vitae, ultricies congue gravida diam non fringilla.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="products__item">
+                                <img src="./asset/img/img_6.jpg" alt="" class="products__item-img">
+                                <div class="products-item__content">
+                                    <h2 class="products__item-name">Lorem Ipsum</h2>
+                                    <p class="product__item-text">
+                                        Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
+                                        lectus
+                                        vitae, ultricies congue gravida diam non fringilla.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <ul class="pagination__list">
+                            <li class="pagination__item"><a href="" class="pagination__item-link">
+                                    <i class="pagination__item-icon fa-solid fa-angles-left"></i>
+                                </a></li>
+                            <li class="pagination__item pagination__item--active"><a href=""
+                                    class="pagination__item-link">
+                                    1
+                                </a></li>
+                            <li class="pagination__item"><a href="" class="pagination__item-link">
+                                    2
+                                </a></li>
+                            <li class="pagination__item"><a href="" class="pagination__item-link">
+                                    3
+                                </a></li>
+                            <li class="pagination__item"><a href="" class="pagination__item-link">
+                                    4
+                                </a></li>
+                            <li class="pagination__item"><a href="" class="pagination__item-link">
+                                    <i class="pagination__item-icon fa-solid fa-angles-right"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="row main_img">
+                        <div class="col l-6 m-6 c-12">
+                            <img src="./asset/img/avt.jpg" alt="" class="content__img">
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <img src="./asset/img/avatar_g1.jpg" alt="" class="content__img">
+                        </div>
+                    </div>
+                    <div class="about">
+                        <div class="about__content">
+                            <div class="about__heading">
+                                About Me
+                            </div>
+                            <div class="about__text">
+                                Just me, myself and I, exploring the universe of unknownment. I have a heart of love and
+                                an interest of lorem ipsum and mauris neque quam blog. I want to share my world with
+                                you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+                                vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut
+                                rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam
+                                non fringilla.
+                            </div>
+                        </div>
+                        <div class="technical-skills">
+                            <div class="technical-skills__heading">
+                                Technical Skills
+                            </div>
+                            <ul class="technical-skills__list">
+                                <li class="technical-skills__item">
+                                    <div class="technical-skills__major">
+                                        Photography
+                                    </div>
+                                    <div class="technical-skills__percent">
+                                        <div class="technical-skills__cur-precent technical-skills__cur-precent--95">
+                                            95%</div>
+                                    </div>
+                                </li>
+                                <li class="technical-skills__item">
+                                    <div class="technical-skills__major">
+                                        Web Design
+                                    </div>
+                                    <div class="technical-skills__percent">
+                                        <div class="technical-skills__cur-precent technical-skills__cur-precent--85">
+                                            85%</div>
+                                    </div>
+                                </li>
+                                <li class="technical-skills__item">
+                                    <div class="technical-skills__major">
+                                        Photoshop
+                                    </div>
+                                    <div class="technical-skills__percent">
+                                        <div class="technical-skills__cur-precent technical-skills__cur-precent--80">
+                                            80%</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="about__download-btn">
+                            <i class="about__download-btn-icon fa-solid fa-download"></i>
+                            Download Resume
+                        </button>
+                        <div class="about__charge">
+                            <div class="about__charge-heading">
+                                How much I charge
+                            </div>
+                            <div class="row">
+                                <div class="col l-4 m-4 c-12">
+                                    <div class="about__charge-item">
+                                        <div class="about__charge-item-type">
+                                            Basic
+                                        </div>
+                                        <ul class="about__charge-list">
+                                            <li class="about__charge-element">
+                                                Web Design
+                                            </li>
+                                            <li class="about__charge-element">
+                                                Photography
+                                            </li>
+                                            <li class="about__charge-element">
+                                                1GB Storage
+                                            </li>
+                                            <li class="about__charge-element">
+                                                Mail Support
+                                            </li>
+                                            <li class="about__charge-element">
+                                                <div class="about__charge-pay">
+                                                    <p class="about__charge-pay-value">
+                                                        $ 10
+                                                    </p>
+                                                    <p class="about__charge-pay-time">
+                                                        per month
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="about__charge-sign-up">
+                                            <button class="about__charge-btn">
+                                                Sign Up
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-4 c-12">
+                                    <div class="about__charge-item">
+                                        <div class="about__charge-item-type about__charge-item-type--pro">
+                                            Pro
+                                        </div>
+                                        <ul class="about__charge-list">
+                                            <li class="about__charge-element">
+                                                Web Design
+                                            </li>
+                                            <li class="about__charge-element">
+                                                Photography
+                                            </li>
+                                            <li class="about__charge-element">
+                                                50GB Storage
+                                            </li>
+                                            <li class="about__charge-element">
+                                                Endless Support
+                                            </li>
+                                            <li class="about__charge-element">
+                                                <div class="about__charge-pay">
+                                                    <p class="about__charge-pay-value">
+                                                        $ 25
+                                                    </p>
+                                                    <p class="about__charge-pay-time">
+                                                        per month
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="about__charge-sign-up">
+                                            <button class="about__charge-btn">
+                                                Sign Up
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-4 c-12">
+                                    <div class="about__charge-item">
+                                        <div class="about__charge-item-type">
+                                            Premium
+                                        </div>
+                                        <ul class="about__charge-list">
+                                            <li class="about__charge-element">
+                                                Web Design
+                                            </li>
+                                            <li class="about__charge-element">
+                                                Photography
+                                            </li>
+                                            <li class="about__charge-element">
+                                                Unlimited Storage
+                                            </li>
+                                            <li class="about__charge-element">
+                                                Endless Support
+                                            </li>
+                                            <li class="about__charge-element">
+                                                <div class="about__charge-pay">
+                                                    <p class="about__charge-pay-value">
+                                                        $ 25
+                                                    </p>
+                                                    <p class="about__charge-pay-time">
+                                                        per month
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="about__charge-sign-up">
+                                            <button class="about__charge-btn">
+                                                Sign Up
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="contact__heading">
+                            Contact Me
+                        </div>
+                        <div class="row no-gutters">
+                            <div class="col l-4 m-4 c-12">
+                                <div class="contact__label">
+                                    <div class="contact__label-icon">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                    <div class="contact__label-text">
+                                        email@email.com
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <div class="contact__label contact__label--active">
+                                    <div class="contact__label-icon">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div class="contact__label-text">
+                                        Chicago, US
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 m-4 c-12">
+                                <div class="contact__label">
+                                    <div class="contact__label-icon">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <div class="contact__label-text">
+                                        512312311
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__container-inp">
+                            <ul class="contact__list-inp">
+                                <li class="contact__inp-item">
+                                    <div class="contact__inp-property">
+                                        Name
+                                    </div>
+                                    <input type="text" name="" id="" class="contact__inp">
+                                </li>
+                                <li class="contact__inp-item">
+                                    <div class="contact__inp-property">
+                                        Email
+                                    </div>
+                                    <input type="email" name="" id="" class="contact__inp">
+                                </li>
+                                <li class="contact__inp-item">
+                                    <div class="contact__inp-property">
+                                        Message
+                                    </div>
+                                    <input type="message" name="" id="" class="contact__inp">
+                                </li>
+                            </ul>
+                            <button class="contact__send">
+                                <i class="contact__send-btn fa-sharp fa-solid fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="footer__content">
+                                <h2 class="footer__heading">
+                                    FOOTER
+                                </h2>
+                                <p class="footer__text">
+                                    Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus
+                                    vitae, ultricies congue gravida diam non fringilla.
+                                </p>
+                                <div class="footer__power">
+                                    Powered by <a href="" class="footer__power-link">w3.css</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="footer__blog">
+                                <h2 class="footer__heading">
+                                    BLOG POSTS
+                                </h2>
+                                <ul class="footer__blog-list">
+                                    <li class="footer__blog-item">
+                                        <img src="./asset/img/footer_1.jpg" alt="" class="footer__blog-item-img">
+                                        <div class="footer__blog-content">
+                                            <div class="footer__blog-name">
+                                                Lorem
+                                            </div>
+                                            <div class="footer__blog-desc">
+                                                Sed mattis nunc
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="footer__blog-item">
+                                        <img src="./asset/img/footer_2.jpg" alt="" class="footer__blog-item-img">
+                                        <div class="footer__blog-content">
+                                            <div class="footer__blog-name">
+                                                Ipsum
+                                            </div>
+                                            <div class="footer__blog-desc">
+                                                Praes tinci sed
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="footer__tags">
+                                <h2 class="footer__heading">
+                                    POPULAR POSTS
+                                </h2>
+                                <ul class="footer__tags-list">
+                                    <li class="footer__tags-item footer__tags-item--active">
+                                        Travel
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        New York
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        London
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        IKEA
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        NORWAY
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        DIY
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        Ideas
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        Baby
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        Family
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        News
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        Clothing
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        Shopping
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        Sports
+                                    </li>
+                                    <li class="footer__tags-item">
+                                        Games
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="footer__bottom">
+                <div class="footer__bottom-power">
+                    Powered by <a href="" class="footer__bottom-link">w3.css</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

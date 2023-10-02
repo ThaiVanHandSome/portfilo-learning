@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1023px){
+    .category{
+        display: none;
+    }
+
+    .content{
+        transition: margin 500ms;
+    }
+
+    .mobile-tablet-nav{
+        display: flex !important;
+    }
+}
+
+@media only screen and (max-width: 739px){
+    .hide-on-mobile{
+        display: none !important;
+    }
+
+    /* .contact__label{
+        margin: 0 !important;
+    }
+
+    .contact__heading{
+        margin: 12px 0 48px 0;
+    } */
+
+    .footer__heading{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1023px){
+    .hide-on-pc{
+        display: none;
+    }
+    .content{
+        margin-left: 300px;
+        transition: margin 400ms;
+    }
+}
